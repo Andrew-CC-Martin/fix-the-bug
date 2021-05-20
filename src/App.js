@@ -3,9 +3,15 @@ import './App.css'
 import React from 'react'
 
 class App extends React.Component {
-  state = {
-    timesClicked: 0
+
+  constructor(props){
+    super(props)
+    this.state = {
+      timesClicked: 0
+    }
+    this.handleClick = this.handleClick.bind(this)
   }
+  
 
   handleClick() {
     this.setState({ timesClicked: this.state.timesClicked + 1 })
