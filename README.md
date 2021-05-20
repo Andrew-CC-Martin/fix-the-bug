@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Fix the bug!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+There is a bug in this code. Try running the app on your machine and see what happens (the app should crash when you click the button).
+
+Your mission: fix the bug.
 
 ## Available Scripts
 
